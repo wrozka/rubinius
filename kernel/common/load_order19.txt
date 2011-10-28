@@ -1,5 +1,6 @@
 basicobject.rbc
 class.rbc
+class19.rbc
 binding.rbc
 proc.rbc
 proc19.rbc
@@ -111,3 +112,4 @@ variable_scope.rbc
 capi.rbc
 complex.rbc
 rational.rbc
+rationalizer.rbc

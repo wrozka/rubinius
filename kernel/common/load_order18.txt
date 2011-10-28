@@ -1,4 +1,5 @@
 class.rbc
+class18.rbc
 binding.rbc
 proc.rbc
 autoload.rbc
@@ -28,6 +29,7 @@ backtrace.rbc
 comparable.rbc
 comparable18.rbc
 numeric.rbc
+numeric18.rbc
 ctype.rbc
 precision.rbc
 integer.rbc
@@ -49,6 +51,7 @@ delegated_method.rbc
 fixnum.rbc
 fixnum18.rbc
 dir.rbc
+dir18.rbc
 lrucache.rbc
 dir_glob.rbc
 env.rbc

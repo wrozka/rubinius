@@ -73,11 +73,16 @@ module Enumerable
       item
     end
 
+    def peek_values
+      Array(self.peek)
+    end
+
     # Rewinds the enumeration sequence by the next method.
     #
     # If the enclosed object responds to a "rewind" method, it is called.
     #
     def rewind
+      @object.rewind if @object.respond_to? :rewind
       @generator.rewind if @generator
       @lookahead = []
       self
